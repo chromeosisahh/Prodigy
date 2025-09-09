@@ -1,3 +1,4 @@
+```javascript
 try {
   var level = parseInt(prompt('What grade do you want to be? (x <= 100) '))
 } catch (level) {
