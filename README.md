@@ -7,11 +7,3 @@ Boot.prototype.game['_state']['_current'].user.source.hasMembership =
   function () {
     return true
   }
-
-Walk speed
-```javascript
-var u_prompt = prompt('What do you want your walkspeed to be?')
-null === u_prompt
-  ? alert('Not a valid answer.')
-  : ((u_prompt = parseFloat(u_prompt)),
-    (Boot.prototype.game['_state']['_current'].user.walkSpeed = u_prompt))
